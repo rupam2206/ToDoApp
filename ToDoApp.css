@@ -1,0 +1,61 @@
+*{
+    font-family: Georgia, Times, serif;
+}
+div{
+    width: 600px;
+    height: 650px;
+    border: black 1px solid;
+    margin-left: 27%;
+    margin-top: 1.5%;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+input{
+    margin-left: 137px;
+    margin-top: 25px;
+    height: 28px;
+    width: 250px;
+    border-radius: 10px;
+    border: white;
+}
+ul li{
+    margin-left: 110px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    color: white;
+}
+ul li button{
+    padding: 5px;
+    margin-left: 18px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+#btn1{
+    padding:7px;
+    margin-left:18px ;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#btn1:hover{
+    background-color:green;
+    color: white;
+    cursor: pointer;
+}
+ul li button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+body{
+    background-image:url(pic.jpg) ;
+    background-size: cover;
+}
+.glassmorphism{
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px)
+}
